@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rick's Bootstrap</title>
+
+    <!-- 引入 Bootstrap 樣式 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Bootstrap 插件是基於 jQuery 之上，所以須先引入 jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- 引入 Bootstrap 插件 -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <h1>Grid system exercise</h1>
+
+    <div class="row">
+      <div class="col-sm-1">.col-sm-1</div>
+      <div class="col-sm-1">.col-sm-1</div>
+      <div class="col-sm-1">.col-sm-1</div>
+      <div class="col-sm-1">.col-sm-1</div>
+      <div class="col-sm-1">.col-sm-1</div>
+      <div class="col-sm-1">.col-sm-1</div>
+      <div class="col-sm-1">.col-sm-1</div>
+      <div class="col-sm-1">.col-sm-1</div>
+      <div class="col-sm-1">.col-sm-1</div>
+      <div class="col-sm-1">.col-sm-1</div>
+      <div class="col-sm-1">.col-sm-1</div>
+      <div class="col-sm-1">.col-sm-1</div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-8">.col-sm-8</div>
+      <div class="col-sm-4">.col-sm-4</div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4">.col-sm-4</div>
+      <div class="col-sm-4">.col-sm-4</div>
+      <div class="col-sm-4">.col-sm-4</div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">.col-sm-6</div>
+      <div class="col-sm-6">.col-sm-6</div>
+    </div>
+    <br>
+
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+    <div class="row">
+      <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
+      <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+    </div>
+
+    <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+    <div class="row">
+      <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+      <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+      <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+    </div>
+
+    <!-- Columns are always 50% wide, on mobile and desktop -->
+    <div class="row">
+      <div class="col-xs-6">.col-xs-6</div>
+      <div class="col-xs-6">.col-xs-6</div>
+    </div>
+    <br>
+
+    <!-- 練習 .container-fluid(滿版) -->
+    <div class="container-fluid">
+      <div class="row"> <!-- 用了抵銷本來預設左右兩邊的15px padding -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          內容區塊一
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          內容區塊二
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          內容區塊三
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          內容區塊四
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <!-- 練習 .container(非滿版) -->
+    <div class="container">
+      <div class="row"> <!-- 用了抵銷本來預設左右兩邊的15px padding -->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          內容區塊一
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          內容區塊二
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          內容區塊三
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+          內容區塊四
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <!-- 練習 .container-fluid 的彈性設計 -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-7 col-lg-2">
+            內容區塊一
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-5 col-lg-4">
+            內容區塊二
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-5 col-lg-2">
+            內容區塊三
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-7 col-lg-4">
+            內容區塊四
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>

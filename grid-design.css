@@ -1,0 +1,23 @@
+.row {
+  background-color: #66FFFF;
+}
+
+.container-fluid {
+  background-color: #CCFF99;
+}
+
+.container {
+  background-color: #DDDDDD;
+}
+
+.col-sm-1, .col-sm-8, .col-sm-4, .col-sm-6, {
+  border: 1px solid grey;
+}
+
+.col-xs-12 .col-md-8, .col-xs-6 .col-md-4, .col-xs-6 .col-md-4, .col-xs-6 {
+  border: 1px solid grey;
+}
+
+.col-xs-12 .col-sm-6 .col-md-4 .col-lg-3, .col-xs-12 .col-sm-6 .col-md-4 .col-lg-3 {
+  border: 1px solid grey;
+}
